@@ -10,3 +10,50 @@ body {
   font-family: "Montserrat", sans-serif;
   overflow-x: hidden;
 }
+
+.wrapper {
+  width: 100vw;
+  height: 100vh;
+  background-color: #191c32;
+  color: #fff;
+}
+
+.navbar {
+  display: flex;
+  padding: 2em;
+  justify-content: space-between;
+}
+
+.brand {
+  margin-top: -7px;
+}
+
+.brand span {
+  color: aqua;
+}
+
+.menu {
+  display: flex;
+  width: 50%;
+  justify-content: space-around;
+}
+
+.menu a {
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 20px;
+}
+
+.menu li {
+  list-style: none;
+}
+
+.menu .active {
+  color: aqua;
+}
+
+.menu a:hover {
+  color: #191c32;
+  background-color: aqua;
+  transition: ease-out 0.5s;
+}
